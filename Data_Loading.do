@@ -114,5 +114,3 @@ label define formal_label 0 "Informal" 1 "Formal"
 label values formal formal_label
 
 //// Save the final dataset. Next Steps in Python
-*Regresion cuantílica
-sqreg logsal edad edadsq horas i.urbano i.hombre i.escolaridad i.formal, q(0.1 0.25 0.5 0.75 0.95) reps(100)
