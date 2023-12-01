@@ -17,6 +17,11 @@ Laboral Market Data: The principal dataset is extracted from the Peruvian Nation
 
 Anyone can review the files via this link: https://proyectos.inei.gob.pe/microdatos/
 
+### Tools
+
+ - Stata: Data Cleaning/Preparation
+ - Python: EDA and Modelling
+
 ### Data Cleaning/Preparation
 
 In the initial data preparation phase, we performed the following tasks:
