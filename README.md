@@ -1,3 +1,5 @@
+**Please if you find a mistake or a suggestion please contact me at : juanfieecs@gmail.com**
+
 ## Table of Contents
 
   - [Project Overview](#project-overview)
@@ -7,7 +9,7 @@
 ### Project Overview
 ---
 
-This project provide key information and evidence from data about the existence of sticky floor and glass ceiling in the laboral market in Peru. Likewise, the gender wage gap is calculated vía statistic modelling. The analysis period is 2017-2021
+This project provide key information and evidence from data about the existence of sticky floor and glass ceiling in the laboral market in Peru. Likewise, the gender wage gap is calculated vía statistic modelling. 
 
 ### Data Sources
 
@@ -61,50 +63,39 @@ Being:
 
 ### Results/Findings
 
-1. 
-![image](https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/d90d1d1f-5d8b-45c9-acd2-38d63977e7a6)
+1. It's easy to prove that **there is correlation between salary with the worked hours per week and the age** (numeric variables). 
 
-2.
-![image](https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/e61e00e6-54f3-4281-911c-ec6415490a9f)
+![image](https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/745560f9-d126-4463-83f4-e5d636b33ee9)
+![image](https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/1227db7d-fa7a-40e7-942e-8f4075f39683)
 
-3.
-![image](https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/b304380b-be80-4ebe-9b16-4497365af873)
+2. On the other hand, non numeric variables shows differences in their distribution among their values. In other words, **the gender, formal labor and the zone is important to classify salary data**.
 
-4.
-![image](https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/af7d3697-1a58-4bb4-bb02-d84852b2e37a)
+![image](https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/bef450c8-bfef-4b21-8b04-735024c58f57)
+![image](https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/50f65a3f-26c5-4b3a-be43-be4931dc3495)
+![image](https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/85b688fe-559d-4912-ae66-edf20c17883c)
 
-5.
-![image](https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/4f6eaa3d-7cc9-4be7-9bf9-7ba4f2d1f7e0)
+3. Across gender and the other categorical variables. The unique which shows a possible significant difference in their values is the education level. **There are more man in mid and high level of education**. Just in the category who people don't have the minimun education (In Perú: Educación Básica Regular) there are more women.
 
-6.
-![image](https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/45649d1a-7670-4b73-951e-1afc0cef1140)
+![image](https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/75d577f0-8645-44dd-9fc2-760bcda26bef)
 
-7.
-![image](https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/ea16b7e2-a0d6-44b1-8d5e-381575db98d2)
+4. WLS Regression show that at 49 years your aditional age (as a proxy of labour experience) begin to have no impact in your salary:
+ 
+![image](https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/2a626e05-da18-4693-be9c-8a74f61e8fe4)
+![image](https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/d0c2ef89-6309-4f53-9610-4df312269078)
 
-8.
-![image](https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/30ab4a0b-a6a9-4f0e-9f89-3fc6d8ec2e55)
+As you can see in the previous image. In average, **the wage gender gap was around 27% in 2022**. 
 
-9.
-![image](https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/1de11a3b-a817-4f69-8c74-069167ca29b1)
-
-10.
-![image](https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/7c40ccef-03b7-4735-bcac-436cadf8bf59)
-
-11.
+6. Now, quantile regression can give more information about this. The next plot shows values of wage gender gap across the salary distribution.
+   
 ![image](https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/7dc3706d-4c50-4428-a285-a159888c7e68)
 
-12.
-![image](https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/7dece09d-54e7-4e96-8e04-9d46112f3a7d)
-
-13.
-![image](https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/d5affcf4-ed12-47b5-8f76-af7f0157ca04)
-
+In conclusion. The study proves the existence of Glass Ceiling. There is no evidence of Sticky Floor.
 
 ### Recommendations
 
+- In next studies you can include a variable of ocupation (p505 or p505r4). In this studie this is not considered because there are too categories and there are few data for each category. Maybe it's possible to classify by sector but there is not supported by ILO or MTPE.
+- ENAHO is a survey that doesn't have as a sampling frame the economically active population (that is the reason for the script in STATA in resources). So, if it's possible try to use other data to replicate this study
 
-### Limitations
+**THANKS FOR READING!**
 
 
-### References
