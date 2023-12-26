@@ -85,7 +85,7 @@ Being:
 
 As you can see in the previous image. In average, **the wage gender gap was around 27% in 2022**. 
 
-6. Now, quantile regression can give more information about this. The next plot shows values of wage gender gap across the salary distribution.
+6. Now, quantile regression can give more information about this. The next plot shows values of wage gender gap across the salary distribution. The gender wage gap is not a flat variable. The graph shows that the larger the salary of the analysis group, the larger the gender wage gap is.
    
 ![image](https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/7dc3706d-4c50-4428-a285-a159888c7e68)
 
