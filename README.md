@@ -76,9 +76,9 @@ Being:
 
 3. Across gender and the other categorical variables. The unique which shows a possible significant difference in their values is the education level. **There are more man in mid and high level of education**. Just in the category who people don't have the minimun education (In Perú: Educación Básica Regular) there are more women.
 
-![image](https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/75d577f0-8645-44dd-9fc2-760bcda26bef)
+![image](https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/ad96393c-ce8d-4670-823e-ee89ca8b4a4d)
 
-4. WLS Regression show that at 49 years your aditional age (as a proxy of labour experience) begin to have no impact in your salary:
+4. WLS Regression show that at 49 years your aditional age (as a proxy of labour experience) have no impact in salaries:
  
 ![image](https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/2a626e05-da18-4693-be9c-8a74f61e8fe4)
 ![image](https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/d0c2ef89-6309-4f53-9610-4df312269078)
