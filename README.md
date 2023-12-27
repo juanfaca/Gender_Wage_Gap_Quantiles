@@ -41,6 +41,8 @@ EDA involved exploring the data to answer some questions, such as:
 Also, EDA provides evidence of null and outliers presence. Specifically, null data in salaries data is around 60%. 
 The treatment was just dropping. Other treatment can be estimation in two steps. 
 
+(This step is in the .ipynb file)
+
 ### Statistic Modelling
 
 The salary model is:
@@ -65,31 +67,62 @@ Being:
 
 1. It's easy to prove that **there is correlation between salary with the worked hours per week and the age** (numeric variables). 
 
-![image](https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/745560f9-d126-4463-83f4-e5d636b33ee9)
-![image](https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/1227db7d-fa7a-40e7-942e-8f4075f39683)
+<div style="text-align: center;">
+    <img src="https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/745560f9-d126-4463-83f4-e5d636b33ee9" width="400" />
+</div>
+<div style="text-align: center;">
+    <img src="https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/1227db7d-fa7a-40e7-942e-8f4075f39683" width="400" />
+</div>
 
 2. On the other hand, non numeric variables shows differences in their distribution among their values. In other words, **the gender, formal labor and the zone is important to classify salary data**.
 
-![image](https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/bef450c8-bfef-4b21-8b04-735024c58f57)
-![image](https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/50f65a3f-26c5-4b3a-be43-be4931dc3495)
-![image](https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/85b688fe-559d-4912-ae66-edf20c17883c)
+<div style="text-align: center;">
+    <img src="https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/bef450c8-bfef-4b21-8b04-735024c58f57" width="400" />
+</div>
+
+<div style="text-align: center;">
+    <img src="https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/50f65a3f-26c5-4b3a-be43-be4931dc3495" width="400" />
+</div>
+
+<div style="text-align: center;">
+    <img src="https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/85b688fe-559d-4912-ae66-edf20c17883c" width="400" />
+</div>
+
 
 3. Across gender and the other categorical variables. The unique which shows a possible significant difference in their values is the education level. **There are more man in mid and high level of education**. Actually just in the category who people don't have the minimun education (In Perú: Educación Básica Regular) there are more women.
 
-![image](https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/ad96393c-ce8d-4670-823e-ee89ca8b4a4d)
+
+<div style="text-align: center;">
+    <img src="https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/ad96393c-ce8d-4670-823e-ee89ca8b4a4d" width="350" />
+</div>
 
 4. WLS Regression show that at 49 years your aditional age (as a proxy of labour experience) have no impact in salaries:
- 
-![image](https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/2a626e05-da18-4693-be9c-8a74f61e8fe4)
-![image](https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/d0c2ef89-6309-4f53-9610-4df312269078)
 
-As you can see in the previous image. In average, **the wage gender gap was around 27% in 2022**. 
+<div style="text-align: center;">
+    <img src="https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/2a626e05-da18-4693-be9c-8a74f61e8fe4" width="500" />
+</div>
 
-6. Now, quantile regression can give more information about this. The next plot shows values of wage gender gap across the salary distribution. The gender wage gap is not a flat variable. The graph shows that the larger the salary of the analysis group, the larger the gender wage gap is.
+<div style="text-align: center;">
+    <img src="https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/d0c2ef89-6309-4f53-9610-4df312269078"/>
+</div>
+
+As you can see in the previous image. In average, **the wage gender gap was around 27% in 2022**. We figure it out that the gap of formal/informal job (47%) is much more than the wage gender gap (27%). And in a third place (16%) the gap between rural/urban jobs. Maybe for that reason the government focus its attention in the promotion of formality
+
+5.  Now, quantile regression can give more information about wage gender gap. The next plot shows values of wage gender gap across the salary distribution. **The gender wage gap is not a flat variable**. The graph shows that as the salary within the analysis group increases, the gender wage gap also increases. In peruvian laboral market wage gender gap is in [20%-30%]
    
-![image](https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/7dc3706d-4c50-4428-a285-a159888c7e68)
+<div style="text-align: center;">
+    <img src="https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/7dc3706d-4c50-4428-a285-a159888c7e68" width="400" />
+</div>
 
-In conclusion. The study proves the existence of Glass Ceiling. There is no evidence of Sticky Floor.
+In conclusion. This study proves the existence of Glass Ceiling. 
+
+There is no evidence of Sticky Floor.
+
+6. **The gap between formal/informal show Sticky Floor**. Actually, this gap in low-income workers is more than 100% and drops exponentially finding an asymptote of 40%. 
+
+<div style="text-align: center;">
+    <img src="https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/4f8ab8f5-81ab-4c79-a917-990929ba777b" width="400" />
+</div>
 
 ### Recommendations
 
