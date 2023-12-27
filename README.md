@@ -31,6 +31,8 @@ In the initial data preparation phase, we performed the following tasks:
 2. Calculating and labeling new variables.
 3. Data cleaning and formatting.
 
+(This step is in the .do file)
+
 ### Exploratory Data Analysis
 
 EDA involved exploring the data to answer some questions, such as:
