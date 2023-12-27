@@ -74,7 +74,7 @@ Being:
 ![image](https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/50f65a3f-26c5-4b3a-be43-be4931dc3495)
 ![image](https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/85b688fe-559d-4912-ae66-edf20c17883c)
 
-3. Across gender and the other categorical variables. The unique which shows a possible significant difference in their values is the education level. **There are more man in mid and high level of education**. Just in the category who people don't have the minimun education (In Perú: Educación Básica Regular) there are more women.
+3. Across gender and the other categorical variables. The unique which shows a possible significant difference in their values is the education level. **There are more man in mid and high level of education**. Actually just in the category who people don't have the minimun education (In Perú: Educación Básica Regular) there are more women.
 
 ![image](https://github.com/juanfaca/Gender_Wage_Gap_Quantiles/assets/151573658/ad96393c-ce8d-4670-823e-ee89ca8b4a4d)
 
