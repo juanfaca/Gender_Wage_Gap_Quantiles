@@ -9,7 +9,7 @@
 ### Project Overview
 ---
 
-This project provide key information and evidence from data about the existence of sticky floor and glass ceiling in the laboral market in Peru. Likewise, the gender wage gap is calculated vía statistic modelling. 
+This project provide key information and evidence about the existence of sticky floor and glass ceiling in the laboral market in Peru. Likewise, the gender wage gap is calculated vía statistic modelling. 
 
 ### Data Sources
 
